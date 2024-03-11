@@ -1,7 +1,7 @@
 /* 
 Style sheet created by: 
-Student's Name 
-Today's Date 
+Brandon Melendez
+3/11/24
 */
 body {
     background-color: #dde3fd;
@@ -22,12 +22,30 @@ body {
 }
 
 /* sticky */
-
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
 
 /* relative */
-
+.relative {
+    position: relative;
+    top: 10px;
+    left: 90px;
+}
 
 /* fixed */
+.fixed {
+    position: fixed;
+    top: 40px;
+    right: 40px;
 
+}
 
 /* absolute */
+.absolute {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
